@@ -1,0 +1,96 @@
+table{
+	background-color:#FFFFFF;
+	font-family: "Times New Roman", Times, serif;;
+	border: 3px solid #c0392b;
+	font-size: 20px;
+	height:700px;
+	
+	
+}
+
+div{
+	margin-left: 835px;
+	margin-top: 100px;
+	position: absolute;
+	
+}
+
+img{
+	height:200px;
+	width:180px;
+	border: 2px solid #c0392b;
+}
+td{
+	padding: 10px;
+	
+}
+
+
+h2{
+	letter-spacing: 5px;
+	background-color: #00BFFF;
+	color: #FFFFFF;
+}
+
+input[type=text],select{
+	width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=date]{
+	width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+	background-color: #00BFFF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type=reset]{
+	background-color: #00BFFF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type=submit]:hover{
+	background-color: blue;
+}
+
+input[type=reset]:hover{
+	background-color: blue;
+}
+
+textarea{
+	width: 300px;
+}
+.bekgron{
+    background-image:url(background.jpg);     
+}
